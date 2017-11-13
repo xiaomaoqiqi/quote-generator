@@ -1,0 +1,51 @@
+/* Background Pic-->*/
+#bg {
+   margin:0;
+   padding:0;
+   position: fixed;
+   z-index: -99;
+   top:0;
+   left:0;
+   width: 100%;
+   height: 100%;
+   /**scalable background to fill available viewport**/
+     background: no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+h1 {
+    font-family:  'Playfair Display', serif;
+    margin-left: 34vw;
+    margin-bottom: 5vw;
+    font-weight: bold;
+    font-size: 5em;
+    color: 	#FA8072;
+    
+}
+
+#Quotes {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+}
+#Author {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+}
+#qBtn {
+    font-size: 2.5em;
+    margin-top:4vw;
+    margin-left: 30vw;
+}
+
+#tBtn {
+    font-size: 2.5em;
+    margin-top:4vw;
+    margin-left: 20vw;
+}
+.btn-primary {
+    background-color: 	#FA8072;
+    color: black;
+    font-family:  'Playfair Display', serif;
+}
