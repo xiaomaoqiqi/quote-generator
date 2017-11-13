@@ -44,8 +44,11 @@ h1 {
     margin-top:4vw;
     margin-left: 20vw;
 }
-.btn-primary {
+.btn-default {
     background-color: 	#FA8072;
     color: black;
     font-family:  'Playfair Display', serif;
+}
+.btn-default:hover {
+    background:#DDA0DD;
 }
